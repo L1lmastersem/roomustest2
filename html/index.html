@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roomus — Find your roommate</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <a class="logo" href="#"><span class="logo-dot"></span>Roomus</a>
+
+    <!-- Mobile toggle (checkbox hack) -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav">
+      <a href="#how">How it works</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn--ghost">Join Beta</a>
+    </nav>
+  </header>
+
+  <!-- ===== Hero (split: tablet left, copy right) ===== -->
+  <section class="hero hero--split">
+    <div class="hero__inner">
+      <!-- Left: tablet mock -->
+      <div class="device">
+        <div class="device__bezel">
+          <div class="device__screen">
+            <!-- Using your uploaded image -->
+            <img src="../img/swipecard.png" alt="Example roommate card" class="swipecard-img" />
+          </div>
+          <div class="device__dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: text + CTA -->
+      <div class="hero-copy">
+        <span class="badge">Student Exclusive!</span>
+        <h1>
+          Find your place.<br />
+          <span class="gradient">Find your people.</span>
+        </h1>
+        <p class="sub">Find your ideal roommate and room, all in one app!</p>
+        <a href="#beta" class="btn btn--pill">Join the beta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT YOU GET ===== -->
+  <section class="section get">
+    <p class="eyebrow">What you get</p>
+    <h2 class="mega">All-in-one roommate platform</h2>
+
+    <div class="get__grid">
+      <article class="get-card">
+        <div class="get-icon">🧭</div>
+        <h3>Personalised Profile</h3>
+        <p>Tell your story, set your preferences, and let Roomus do the matching.</p>
+      </article>
+
+      <article class="get-card">
+        <div class="get-icon">🤝</div>
+        <h3>Match with Roommates</h3>
+        <p>Swipe right on compatible people. If they like you back, it’s a match!</p>
+      </article>
+
+      <article class="get-card">
+        <div class="get-icon">🏡</div>
+        <h3>Find & List Rooms</h3>
+        <p>Discover rooms or boost your listing for more visibility among students.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS (wide 3-card) ===== -->
+<section id="how" class="section how-wide">
+  <p class="eyebrow">How it works</p>
+  <h2 class="mega">From swipe to new home</h2>
+
+  <div class="how-wide__grid">
+    <article class="how-wide__card">
+      <span class="how-wide__num">01</span>
+      <h3>Create Your Profile</h3>
+      <p>Say who you are and what you're looking for in a roommate. The more
+         you share, the better you'll match with people who truly fit your vibe.</p>
+    </article>
+
+    <article class="how-wide__card">
+      <span class="how-wide__num">02</span>
+      <h3>Swipe on Roommates</h3>
+      <p>Scroll through profiles and swipe on people who match your preferences
+         and housing goals — think dating-style, but for finding someone to live with.</p>
+    </article>
+
+    <article class="how-wide__card">
+      <span class="how-wide__num">03</span>
+      <h3>Match & Chat</h3>
+      <p>If both of you swipe right, it’s a match! Start chatting, share listings,
+         and plan your housing hunt together — all inside the app.</p>
+    </article>
+  </div>
+</section>
+
+  <!-- ===== Sneak Peek (moved here under matches) ===== -->
+  <section class="section peek">
+    <p class="eyebrow">Sneak peek</p>
+    <h2 class="mega">Search or post your room</h2>
+
+    <div class="peek__grid">
+      <!-- Left: Room listings screenshot -->
+      <figure class="window">
+        <div class="window__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <img src="../img/rooms.png" alt="Room listings UI" class="window__img" />
+      </figure>
+
+      <!-- Right: Messages screenshot -->
+      <figure class="window">
+        <div class="window__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <img src="../img/messages.png" alt="Messages UI" class="window__img" />
+      </figure>
+    </div>
+
+    <h3 class="peek__caption">… and chat directly with your matches</h3>
+  </section>
+
+<!-- ===== Why Roomus? ===== -->
+<section id="why" class="section why">
+  <p class="eyebrow">Why Roomus?</p>
+  <h2 class="mega">Compatibility over availability</h2>
+
+  <div class="why-grid">
+    <article class="why-card">
+      <h3>Students</h3>
+      <p>No 35-year-olds with 12 house rules. Just students like you, looking to share a home and not get stuck with a stranger.</p>
+    </article>
+
+    <article class="why-card">
+      <h3>Compatibility</h3>
+      <p>Match based on lifestyle, habits, and boundaries — not just rent or location. You’ll connect with people who get your rhythm.</p>
+    </article>
+
+    <article class="why-card">
+      <h3>Trust</h3>
+      <p>Every profile is student-verified, no spam or scams. We keep things human, safe, and respectful, because your home should feel that way too.</p>
+    </article>
+
+    <article class="why-card">
+      <h3>Together</h3>
+      <p>Most apps expect you to squeeze into someone else’s living situation. On Roomus, you find your roommate first — then find the place together.</p>
+    </article>
+
+    <article class="why-card">
+      <h3>Control</h3>
+      <p>You decide who to match with, when to chat, and where to live. No pressure, no creepy replies, no random invites.</p>
+    </article>
+
+    <article class="why-card">
+      <h3>Chat</h3>
+      <p>Forget Facebook messages, Google Forms, and awkward interviews. Swipe through real profiles and chat directly with your matches.</p>
+    </article>
+  </div>
+</section>
+
+  <!-- ===== Quotes ===== -->
+  <section class="section quotes">
+    <h2 class="section__title">Students say</h2>
+    <div class="quote-wrap">
+      <blockquote class="quote">“I found a roommate in a week. Super easy!”<cite>— Noor</cite></blockquote>
+      <blockquote class="quote">“The filters helped me avoid bad fits.”<cite>— Max</cite></blockquote>
+    </div>
+  </section>
+
+<!-- ===== Get in touch ===== -->
+<section id="contact" class="section contact">
+  <div class="contact__inner">
+    <p class="eyebrow">Get in touch</p>
+    <h2 class="mega">Be the first to try it!</h2>
+
+    <form class="contact__form" action="#" method="post">
+      <div class="form-grid">
+        <div class="field">
+          <label for="name">Name*</label>
+          <input id="name" name="name" type="text" class="input" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email*</label>
+          <input id="email" name="email" type="email" class="input" placeholder="you@university.edu" required>
+        </div>
+
+        <div class="field field--full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="input input--area" placeholder="Tell us how we can help"></textarea>
+        </div>
+      </div>
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div>
+        <div class="logo"><span class="logo-dot"></span>Roomus</div>
+        <p class="muted">Helping students find roommates & housing.</p>
+      </div>
+      <div class="footer__nav">
+        <a href="#how">How it works</a>
+        <a href="#matches">Matches</a>
+        <a href="#listings">Listings</a>
+      </div>
+      <div class="copyright">© 2025 Roomus</div>
+    </div>
+  </footer>
+</body>
+</html>
